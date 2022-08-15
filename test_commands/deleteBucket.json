@@ -1,0 +1,9 @@
+{
+    "action": "delete",
+    "target":{
+            "bucket":{
+                "bucket_name": "asfafa",
+                "location": "US"
+            }
+    }
+}

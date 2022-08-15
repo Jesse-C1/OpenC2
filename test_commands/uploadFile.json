@@ -1,0 +1,12 @@
+{
+    "action": "upload",
+    "target":{
+            "bucket":{
+                "file":{
+                    "bucket_name": "asfafa",
+                    "file_name": "mydict.py",
+                    "blob": "testFile"
+                }
+            }
+    }
+}
