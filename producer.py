@@ -14,6 +14,3 @@ data = json.dumps(data)
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     s.sendall(bytes(data,encoding = "utf-8"))
-
-
-    
